@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class BinarySearch2 {
 	
+	//samostalan rad
+	//Binary search uz pomoć petlje. Funkcija vraća -1 ako broj nije u nizu
+	
 	public static int binarySearchLoop(int[] array, int number)
 	{
 		int start = 0;
