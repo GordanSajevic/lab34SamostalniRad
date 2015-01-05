@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Rekurzija {
 
+	//Samostalan rad
+	//Vježbanje rekurzije. Funkcija recursion ispisuje sve brojeve između 0 i n, za zadani broj n.
+	//Funkcija recursiveAdding ispisuje sumu svih brojeva između 1 i num, za zadani broj num
+
 	public static void recursion(int n)
 	{
 		if (n < 0)
