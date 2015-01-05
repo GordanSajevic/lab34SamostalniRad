@@ -13,6 +13,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 //Samostalni rad
+//Cilj zadatka bio je napraviti program koji kreira prozor sa tri dugmeta: greater, lesser i equal.
+//Kompjuter pokušava da pogodi zamišljeni korisnikov broj, a korisnik ga uz pomoć tri dugmeta navodi na
+//pravi odgovor. Kompjuter se mora služiti binary searchom, tj. uvijek pretpostavlja da je traženi brpj
+//polovina između prvog i posljednjeg broja
 
 public class GuessNumber {
 
