@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class IndexBroja {
 
 	//Samostalni rad
+	//Program za uneseni broj vraća njegov index u nizu, ili javlja da broj nije član niza
 	
 	public static void main(String[] args) {
 		Scanner unos = new Scanner(System.in);
