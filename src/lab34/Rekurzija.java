@@ -19,5 +19,6 @@ public class Rekurzija {
 		System.out.println("Enter number: ");
 		int number = unos.nextInt();
 		recursion(number);
+		unos.close();
 	}
 }
