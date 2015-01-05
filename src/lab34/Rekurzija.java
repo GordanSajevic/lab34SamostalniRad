@@ -24,11 +24,11 @@ public class Rekurzija {
 	}
 	
 	public static void main(String[] args) {
-	//	Scanner unos = new Scanner(System.in);
-	//	System.out.println("Enter number: ");
-	//	int number = unos.nextInt();
-	//	recursion(number);
+		Scanner unos = new Scanner(System.in);
+		System.out.println("Enter number: ");
+		int number = unos.nextInt();
+		recursion(number);
 		System.out.println(recursiveAdding(7));
-	//	unos.close();
+		unos.close();
 	}
 }
