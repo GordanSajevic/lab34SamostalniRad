@@ -14,11 +14,21 @@ public class Rekurzija {
 		recursion(n-1);
 	}
 	
+	public static int recursiveAdding(int num)
+	{
+		if (num == 1)
+		{
+			return 1;
+		}
+		return num + recursiveAdding(num-1);
+	}
+	
 	public static void main(String[] args) {
-		Scanner unos = new Scanner(System.in);
-		System.out.println("Enter number: ");
-		int number = unos.nextInt();
-		recursion(number);
-		unos.close();
+	//	Scanner unos = new Scanner(System.in);
+	//	System.out.println("Enter number: ");
+	//	int number = unos.nextInt();
+	//	recursion(number);
+		System.out.println(recursiveAdding(7));
+	//	unos.close();
 	}
 }
