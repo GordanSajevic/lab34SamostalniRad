@@ -2,6 +2,9 @@ package lab34;
 
 public class RecursiveBinarySearch {
 
+	//Samostalan rad
+	//Binary search uz pomoć rekurzije. Funkcija vraća -1 ako broj nije član niza
+
 	public static int binarySearch(int start, int end, int[] array, int number)
 	{
 		if ( start >= end)
